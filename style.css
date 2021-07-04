@@ -5,6 +5,10 @@ body {
 h1 {
     font-size: 50px;
 }
+section {
+    display: flex;
+    margin-bottom: 150px;
+}
 .first {
     padding-left: 140px;
 }
@@ -12,7 +16,7 @@ h1 {
     color: darkslategrey;
 }
 .top-banner {
-    display: flex;
+    
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -34,4 +38,13 @@ h1 {
     color: white;
     border-radius: 5px;
     font-weight: 800;
+}
+.pink{
+    color: mediumvioletred;
+}
+.second{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
 }
